@@ -3,6 +3,8 @@ Implementation of 2018 WordPairs FRQ
 This challenge is based on the 2018 Free Response Question #2 WordPair. You are encouraged to work in pairs on this challenge.
 [Link to FRQ text](https://secure-media.collegeboard.org/ap/pdf/ap18-frq-computer-science-a.pdf#page=7)
 
+Create a new Java Project in Eclipse and add the java files here into the src folder.
+
 In this FRQ, you are given an array of words and you will create pairs of them by taking the first word and pairing it with all the other words, then taking the second word and pairing it with all but the first one, and so on. For example, if the word array is [“Hi”, “there”, “Tyler”, “Sam”], this figure shows how the word pairs are formed.
 
 In the class WordPairsList below, you will write the constructor which takes the array of words and pairs them up as shown in the figure. You will need nested loops to pair each element with the rest of the elements in the list. Here is the pseudocode.
